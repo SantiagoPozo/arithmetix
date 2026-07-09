@@ -1,0 +1,145 @@
+.profile-page {
+  width: min(760px, 94vw);
+  margin: 0 auto;
+  padding: 1.5rem 0 3rem;
+}
+
+.profile-page__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+.profile-page__brand {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.profile-page__back {
+  color: var(--color-ink-strong);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-line-strong);
+}
+
+.profile-page__session {
+  justify-content: flex-end;
+}
+
+.profile-page__card {
+  display: grid;
+  gap: 1rem;
+}
+
+.profile-page__eyebrow {
+  display: inline-block;
+  justify-self: start;
+  padding: 0.18rem 0.62rem;
+  border-radius: 999px;
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+.profile-page h1 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1.08;
+}
+
+.profile-page__intro,
+.profile-page__item dd {
+  color: var(--color-ink-soft);
+}
+
+.profile-page__grid {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+}
+
+.profile-page__item {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.9rem;
+  border: 1px solid var(--color-line);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.profile-page__item dt {
+  font-weight: 700;
+}
+
+.profile-page__item dd {
+  margin: 0;
+}
+
+.profile-page__edit-block {
+  display: grid;
+  gap: 0.7rem;
+  margin-top: 0.25rem;
+}
+
+.profile-page__edit-block p {
+  color: var(--color-ink-soft);
+  margin: 0;
+}
+
+.profile-page__form {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.profile-page__label {
+  font-weight: 600;
+}
+
+.profile-page__input {
+  width: 100%;
+  border: 1px solid var(--color-line-strong);
+  border-radius: 12px;
+  font: inherit;
+  padding: 0.72rem 0.82rem;
+  color: var(--color-ink-strong);
+  background: var(--color-panel);
+}
+
+.profile-page__textarea {
+  resize: vertical;
+}
+
+.profile-page__input::placeholder {
+  color: var(--color-ink-soft);
+}
+
+.profile-page__input:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.profile-page__success {
+  color: var(--color-success);
+  margin: 0;
+}
+
+.profile-page__error {
+  color: var(--color-danger);
+  margin: 0;
+}
+
+@media (max-width: 720px) {
+  .profile-page__header {
+    flex-direction: column;
+  }
+
+  .profile-page__session {
+    justify-content: flex-start;
+  }
+
+  .profile-page__grid {
+    grid-template-columns: 1fr;
+  }
+}

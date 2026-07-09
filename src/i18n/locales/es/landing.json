@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "eyebrow": "Juegos de matematicas para pensar rapido",
+    "title": "Entrena calculo y logica con retos cortos",
+    "subtitle": "arithmetix combina juegos contra reloj y modo aprendizaje sin tiempo para mejorar soltura matematica paso a paso."
+  },
+  "highlights": {
+    "title": "Como funciona",
+    "items": {
+      "clock": {
+        "title": "Modo contra reloj",
+        "text": "Retos rapidos para mejorar velocidad de respuesta y precision."
+      },
+      "learn": {
+        "title": "Modo aprendizaje",
+        "text": "Misma mecanica sin cronometro para comprender cada paso con calma."
+      },
+      "cloud": {
+        "title": "Clasificacion en la nube",
+        "text": "Guarda puntuaciones con Google y compara tu progreso por juego."
+      }
+    }
+  },
+  "featured": {
+    "title": "Primeros juegos",
+    "integer": "Operaciones con enteros",
+    "equations": "Ecuaciones simples",
+    "order": "Orden de operaciones"
+  }
+}

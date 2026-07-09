@@ -1,0 +1,57 @@
+{
+  "navigation": {
+    "label": "Game main navigation",
+    "home": "Home",
+    "welcome": "User: {{name}}"
+  },
+  "timer": {
+    "title": "Countdown",
+    "secondsLabel": "Seconds",
+    "start": "Start countdown and game"
+  },
+  "workspace": {
+    "challengeTitle": "Expression to solve",
+    "answerLabel": "Your answer",
+    "answerPlaceholder": "Type your result",
+    "submit": "Submit answer",
+    "scoreLabel": "Score: {{score}}"
+  },
+  "status": {
+    "ready": "Ready to start",
+    "running": "Challenge running ({{remaining}} s)",
+    "timeUp": "Time is up. Press start for a new round."
+  },
+  "feedback": {
+    "waiting": "Press start to begin the challenge.",
+    "invalid": "Enter a valid numeric answer.",
+    "correct": "Correct. +1 point.",
+    "incorrect": "Incorrect. -2 points. Expected result: {{solution}}"
+  },
+  "scoreboard": {
+    "title": "Scoreboard",
+    "score": "Score",
+    "correct": "Correct",
+    "wrong": "Wrong"
+  },
+  "footer": {
+    "copyright": "Copyright arithmetix",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "pages": {
+    "integer": {
+      "title": "Integer operations",
+      "subtitle": "Practice sums, subtractions, multiplications, and divisions with integers.",
+      "expression": "-8 + 3\\times(5 - 2)"
+    },
+    "equations": {
+      "title": "Simple equations",
+      "subtitle": "Solve first-degree equations and validate your reasoning.",
+      "expression": "2x - 7 = 11"
+    },
+    "order": {
+      "title": "Order of operations",
+      "subtitle": "Evaluate expressions following parentheses, powers, and operator precedence.",
+      "expression": "6 + 2^2\\times(9 - 5)"
+    }
+  }
+}

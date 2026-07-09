@@ -1,0 +1,127 @@
+.auth-page {
+  width: min(560px, 94vw);
+  margin: 0 auto;
+  padding: 1.5rem 0 3rem;
+}
+
+.auth-page__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
+}
+
+.auth-page__brand {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.auth-page__back {
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-line-strong);
+}
+
+.auth-page__card {
+  display: grid;
+  gap: 1rem;
+}
+
+.auth-page__eyebrow {
+  display: inline-block;
+  justify-self: start;
+  padding: 0.18rem 0.62rem;
+  border-radius: 999px;
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+.auth-page h1 {
+  font-size: clamp(1.7rem, 4vw, 2.3rem);
+  line-height: 1.08;
+}
+
+.auth-page__mode-toggle {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr;
+}
+
+.auth-page__mode-button {
+  border: 1px solid var(--color-line-strong);
+  border-radius: 999px;
+  font: inherit;
+  cursor: pointer;
+  background: transparent;
+  color: var(--color-ink-strong);
+  padding: 0.52rem 0.8rem;
+}
+
+.auth-page__mode-button[aria-selected="true"] {
+  background: var(--color-primary-soft);
+  border-color: var(--color-primary-border);
+}
+
+.auth-page__form {
+  display: grid;
+  gap: 0.6rem;
+}
+
+.auth-page__label {
+  font-weight: 600;
+}
+
+.auth-page__input {
+  width: 100%;
+  border: 1px solid var(--color-line-strong);
+  border-radius: 12px;
+  font: inherit;
+  padding: 0.65rem 0.8rem;
+  color: var(--color-ink-strong);
+  background: var(--color-panel);
+}
+
+.auth-page__input::placeholder {
+  color: var(--color-ink-soft);
+}
+
+.auth-page__input:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 1px;
+}
+
+.auth-page__copy {
+  color: var(--color-ink-soft);
+}
+
+.auth-page__helper-copy {
+  color: var(--color-ink-soft);
+  text-align: center;
+}
+
+.auth-page__link {
+  justify-self: start;
+  color: var(--color-ink-strong);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-line-strong);
+}
+
+.auth-page__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.auth-page__separator {
+  color: var(--color-ink-soft);
+  text-align: center;
+}
+
+.auth-page__message {
+  color: var(--color-success);
+}
+
+.auth-page__error {
+  color: var(--color-danger);
+}

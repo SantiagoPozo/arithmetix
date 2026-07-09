@@ -1,0 +1,57 @@
+{
+  "navigation": {
+    "label": "Navegacion principal de juego",
+    "home": "Inicio",
+    "welcome": "Usuario: {{name}}"
+  },
+  "timer": {
+    "title": "Cuenta atras",
+    "secondsLabel": "Segundos",
+    "start": "Iniciar cuenta y juego"
+  },
+  "workspace": {
+    "challengeTitle": "Operacion a resolver",
+    "answerLabel": "Tu respuesta",
+    "answerPlaceholder": "Escribe el resultado",
+    "submit": "Enviar respuesta",
+    "scoreLabel": "Puntuacion: {{score}}"
+  },
+  "status": {
+    "ready": "Listo para comenzar",
+    "running": "Reto en marcha ({{remaining}} s)",
+    "timeUp": "Tiempo agotado. Pulsa iniciar para una nueva ronda."
+  },
+  "feedback": {
+    "waiting": "Pulsa iniciar para comenzar el reto.",
+    "invalid": "Introduce una respuesta numerica valida.",
+    "correct": "Correcto. +1 punto.",
+    "incorrect": "Incorrecto. -2 puntos. Resultado esperado: {{solution}}"
+  },
+  "scoreboard": {
+    "title": "Marcador",
+    "score": "Puntuacion",
+    "correct": "Aciertos",
+    "wrong": "Errores"
+  },
+  "footer": {
+    "copyright": "Copyright arithmetix",
+    "license": "CC BY-NC-SA 4.0"
+  },
+  "pages": {
+    "integer": {
+      "title": "Operaciones con enteros",
+      "subtitle": "Practica sumas, restas, multiplicaciones y divisiones con numeros enteros.",
+      "expression": "-8 + 3\\times(5 - 2)"
+    },
+    "equations": {
+      "title": "Ecuaciones simples",
+      "subtitle": "Resuelve ecuaciones de primer grado y comprueba tu razonamiento.",
+      "expression": "2x - 7 = 11"
+    },
+    "order": {
+      "title": "Orden de operaciones",
+      "subtitle": "Evalua expresiones respetando parentesis, potencias y prioridad de operadores.",
+      "expression": "6 + 2^2\\times(9 - 5)"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.session-summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.session-summary__link,
+.session-summary__button {
+  border: 1px solid var(--color-line-strong);
+  border-radius: 999px;
+  background: var(--color-panel);
+  color: var(--color-ink-strong);
+  text-decoration: none;
+  font: inherit;
+  padding: 0.36rem 0.8rem;
+}
+
+.session-summary__button {
+  cursor: pointer;
+}
+
+.session-summary__link:focus-visible,
+.session-summary__button:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}

@@ -1,0 +1,30 @@
+{
+  "hero": {
+    "eyebrow": "Math games built for quick thinking",
+    "title": "Train calculation and logic with short challenges",
+    "subtitle": "arithmetix blends against-the-clock games with no-timer learning mode so students can improve at their own pace."
+  },
+  "highlights": {
+    "title": "How it works",
+    "items": {
+      "clock": {
+        "title": "Against the clock",
+        "text": "Fast rounds designed to sharpen response speed and accuracy."
+      },
+      "learn": {
+        "title": "Learning mode",
+        "text": "The same mechanics, no timer, and full focus on understanding every step."
+      },
+      "cloud": {
+        "title": "Cloud leaderboard",
+        "text": "Save scores with Google and compare your progress per game."
+      }
+    }
+  },
+  "featured": {
+    "title": "First games",
+    "integer": "Integer operations",
+    "equations": "Simple equations",
+    "order": "Order of operations"
+  }
+}

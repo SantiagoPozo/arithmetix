@@ -1,0 +1,123 @@
+.onboarding-page {
+  width: min(680px, 94vw);
+  margin: 0 auto;
+  padding: 1.5rem 0 3rem;
+}
+
+.onboarding-page__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.3rem;
+}
+
+.onboarding-page__brand {
+  font-size: 1.1rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.onboarding-page__secondary-link {
+  color: var(--color-ink-strong);
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-line-strong);
+}
+
+.onboarding-page__session {
+  justify-content: flex-end;
+}
+
+.onboarding-page__card {
+  display: grid;
+  gap: 1rem;
+}
+
+.onboarding-page__eyebrow {
+  display: inline-block;
+  justify-self: start;
+  padding: 0.18rem 0.62rem;
+  border-radius: 999px;
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
+.onboarding-page h1 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  line-height: 1.08;
+}
+
+.onboarding-page__intro,
+.onboarding-page__hint {
+  color: var(--color-ink-soft);
+}
+
+.onboarding-page__account-email {
+  color: var(--color-ink-soft);
+  font-weight: 600;
+}
+
+.onboarding-page__form {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.onboarding-page__label {
+  font-weight: 600;
+}
+
+.onboarding-page__input {
+  width: 100%;
+  border: 1px solid var(--color-line-strong);
+  border-radius: 12px;
+  font: inherit;
+  padding: 0.72rem 0.82rem;
+  color: var(--color-ink-strong);
+  background: var(--color-panel);
+}
+
+.onboarding-page__textarea {
+  resize: vertical;
+}
+
+.onboarding-page__input::placeholder {
+  color: var(--color-ink-soft);
+}
+
+.onboarding-page__input:focus-visible,
+.onboarding-page__secondary-link:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+.onboarding-page__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+
+.onboarding-page__error {
+  color: var(--color-danger);
+}
+
+@media (max-width: 640px) {
+  .onboarding-page__header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .onboarding-page__session {
+    justify-content: flex-start;
+  }
+
+  .onboarding-page__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .onboarding-page__secondary-link {
+    text-align: center;
+  }
+}
